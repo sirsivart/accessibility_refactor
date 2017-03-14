@@ -33,13 +33,13 @@
                     <form class="survey">
                         <fieldset>
                             <legend>Who is your favorite band member:</legend>
-                            <input type="radio" name="res" value="John"> John
-                            <input type="radio" name="res" value="Hazzard"> Hazzard
-                            <input type="radio" name="res" value="Bob"> Bob
-                            <input type="radio" name="res" value="Sally"> Sally
+                            <input type="radio" name="res" value="John" id="John"> <label for="John">John</label>
+                            <input type="radio" name="res" value="Hazzard" id="Hazzard"> <label for="Hazzard">Hazzard</label>
+                            <input type="radio" name="res" value="Bob" id="Bob"> <label for="Bob">Bob</label>
+                            <input type="radio" name="res" value="Sally" id="Sally"> <label for="Sally">Sally</label>
                         </fieldset><br>
                         <fieldset>
-                            <legend>What is your favorite album:</legend>
+                            <legend><label for="albums"></label>What is your favorite album:</legend>
                             <select id="albums" name="select">
                 <option value="1">A Day Of Old</option>
                 <option value="2">Diamond Fireworks</option>
@@ -55,7 +55,7 @@
               </select>
                         </fieldset><br>
                         <fieldset>
-                            <legend>What is your favorite song:</legend>
+                            <legend><label for="favoriteSong">What is your favorite song:</label></legend>
 
                             <textarea id="favoriteSong"></textarea>
                         </fieldset>
